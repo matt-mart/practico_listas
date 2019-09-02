@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1567361084 source:c:\users\adminpc\desktop\eda\practico_listas\main.cpp
+	<assert.h>
+	<iostream>
+	"./lib/nodo.hpp"
+	"./lib/lista.hpp"
+	"./lib/agregar_frente.hpp"
+	"./lib/mostrar_lista.hpp"
+	"./lib/extraer_frente.hpp"
+	"./lib/agregar_fondo.hpp"
+	"./lib/extraer_fondo.hpp"
+	"./lib/agregar_nodo.hpp"
+	"./lib/agregar_lugar.hpp"
+	"./lib/borrar_lista.hpp"
+
+1567348391 c:\users\adminpc\desktop\eda\practico_listas\lib\nodo.hpp
+
+1567349237 c:\users\adminpc\desktop\eda\practico_listas\lib\lista.hpp
+
+1567348872 c:\users\adminpc\desktop\eda\practico_listas\lib\agregar_frente.hpp
+
+1567347192 c:\users\adminpc\desktop\eda\practico_listas\lib\mostrar_lista.hpp
+
+1567350018 c:\users\adminpc\desktop\eda\practico_listas\lib\extraer_frente.hpp
+
+1567351195 c:\users\adminpc\desktop\eda\practico_listas\lib\agregar_fondo.hpp
+
+1567351709 c:\users\adminpc\desktop\eda\practico_listas\lib\extraer_fondo.hpp
+
+1567358277 c:\users\adminpc\desktop\eda\practico_listas\lib\agregar_lugar.hpp
+
+1567359029 c:\users\adminpc\desktop\eda\practico_listas\lib\agregar_nodo.hpp
+
+1567360015 c:\users\adminpc\desktop\eda\practico_listas\lib\borrar_lista.hpp
+
