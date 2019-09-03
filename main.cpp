@@ -10,6 +10,12 @@
 #include "./lib/agregar_nodo.hpp"
 #include "./lib/agregar_lugar.hpp"
 #include "./lib/borrar_lista.hpp"
+#include "./lib/eliminar_nodo.hpp"
+#include "./lib/eliminar_valor.hpp"
+#include "./lib/extraer_nodo.hpp"
+#include "./lib/extraer_lugar.hpp"
+#include "./lib/agregar_ordenado.hpp"
+
 using namespace std;
 
 int main()
@@ -21,60 +27,18 @@ int main()
     assert( lista.raiz == nullptr );
     assert( lista.copa == nullptr );
 
-    cout << " " << endl;
-    cout << " Todo piola por aca wachin" << endl;
-    cout << " " << endl;
+    for (int i = 0; i<6; i+=1)
+      Agregar_Fondo(&lista, i );
 
-    Agregar_Frente( &lista, valor);
+    Agregar_Ordenado(&lista, -1);
+    Agregar_Ordenado(&lista, 3);
+
+
     Mostrar_Lista(lista);
 
-    cout << " " << endl;
-    cout << " Todo piola por aca wachin" << endl;
-    cout << " " << endl;
-
-    Agregar_Frente( &lista, valor+1);
+    cout << " ---- " <<endl;
+    Extraer_Lugar(&lista, 4);
     Mostrar_Lista(lista);
-
-    cout << " " << endl;
-    cout << " Todo piola por aca wachin" << endl;
-    cout << " " << endl;
-
-    Agregar_Frente( &lista, valor+2);
-    Mostrar_Lista(lista);
-
-    cout << " " << endl;
-    cout << " Todo piola por aca wachin" << endl;
-    cout << " " << endl;
-
-    Agregar_Frente( &lista, valor+3);
-    Mostrar_Lista(lista);
-
-    cout << " " << endl;
-    cout << " Todo piola por aca wachin" << endl;
-    cout << " " << endl;
-
-    Agregar_Frente( &lista, valor+4);
-    Mostrar_Lista(lista);
-
-    cout << " " << endl;
-    cout << " Todo piola por aca wachin" << endl;
-    cout << " " << endl;
-
-    cout << "AVISO IMPORTANTE" << endl;
-    cout << "Si por alguna casualidad usted desea" << endl;
-    cout << "ingresar un valor en la penultima" << endl;
-    cout << "posicion, contactese con el programador" << endl;
-    cout << " 095 420 927 " << endl;
-
-
-    Agregar_Lugar( &lista, 6053 , 5 );
-    Mostrar_Lista(lista);
-
-    cout << " " << endl;
-    cout << " Todo piola por aca wachin" << endl;
-    cout << " " << endl;
-
-    cout << lista.largo << endl;
 
     Borrar_Lista( &lista );
 }

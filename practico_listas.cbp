@@ -36,9 +36,14 @@
 		<Unit filename="lib/agregar_frente.hpp" />
 		<Unit filename="lib/agregar_lugar.hpp" />
 		<Unit filename="lib/agregar_nodo.hpp" />
+		<Unit filename="lib/agregar_ordenado.hpp" />
 		<Unit filename="lib/borrar_lista.hpp" />
+		<Unit filename="lib/eliminar_nodo.hpp" />
+		<Unit filename="lib/eliminar_valor.hpp" />
 		<Unit filename="lib/extraer_fondo.hpp" />
 		<Unit filename="lib/extraer_frente.hpp" />
+		<Unit filename="lib/extraer_lugar.hpp" />
+		<Unit filename="lib/extraer_nodo.hpp" />
 		<Unit filename="lib/lista.hpp" />
 		<Unit filename="lib/mostrar_lista.hpp" />
 		<Unit filename="lib/nodo.hpp" />

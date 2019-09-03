@@ -21,12 +21,8 @@ void Agregar_Nodo(
   };
 
   nodo->previo->proximo = nodo_nuevo;
-  nodo->proximo->previo = nodo_nuevo;
+  nodo->previo = nodo_nuevo;
 
   _lista->largo+=1;
-
-
-
-
 
 }

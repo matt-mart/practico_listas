@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1567361084 source:c:\users\adminpc\desktop\eda\practico_listas\main.cpp
+1567464324 source:c:\users\adminpc\desktop\eda\practico_listas\main.cpp
 	<assert.h>
 	<iostream>
 	"./lib/nodo.hpp"
@@ -12,6 +12,11 @@
 	"./lib/agregar_nodo.hpp"
 	"./lib/agregar_lugar.hpp"
 	"./lib/borrar_lista.hpp"
+	"./lib/eliminar_nodo.hpp"
+	"./lib/eliminar_valor.hpp"
+	"./lib/extraer_nodo.hpp"
+	"./lib/extraer_lugar.hpp"
+	"./lib/agregar_ordenado.hpp"
 
 1567348391 c:\users\adminpc\desktop\eda\practico_listas\lib\nodo.hpp
 
@@ -29,7 +34,17 @@
 
 1567358277 c:\users\adminpc\desktop\eda\practico_listas\lib\agregar_lugar.hpp
 
-1567359029 c:\users\adminpc\desktop\eda\practico_listas\lib\agregar_nodo.hpp
+1567459879 c:\users\adminpc\desktop\eda\practico_listas\lib\agregar_nodo.hpp
 
 1567360015 c:\users\adminpc\desktop\eda\practico_listas\lib\borrar_lista.hpp
+
+1567460541 c:\users\adminpc\desktop\eda\practico_listas\lib\extraer_nodo.hpp
+
+1567461800 c:\users\adminpc\desktop\eda\practico_listas\lib\extraer_lugar.hpp
+
+1567460417 c:\users\adminpc\desktop\eda\practico_listas\lib\eliminar_nodo.hpp
+
+1567457431 c:\users\adminpc\desktop\eda\practico_listas\lib\eliminar_valor.hpp
+
+1567464567 c:\users\adminpc\desktop\eda\practico_listas\lib\agregar_ordenado.hpp
 
